@@ -13,4 +13,4 @@ if (mark >= 80) {
     grade = "No grade";
 }
 
-console.log(`${name}: Grade - ${grade}`)
+console.log(`${name}: Grade - ${grade}`);
