@@ -1,6 +1,6 @@
 let a = 23;
 let b = 30;
-let c = 5;
+let c = 7;
 
 let max = a;
 let min1 = b;
@@ -16,7 +16,7 @@ if (c > max) {
     max = c;
 } 
 
-if (min1 + min2 >= max) {
+if (min1 + min2 > max) {
     console.log("Triangle is possible!")
 } else {
     console.log("Triangle is not possible :(")
